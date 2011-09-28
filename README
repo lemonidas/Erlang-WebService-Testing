@@ -1,1 +1,10 @@
-View Erlang_WebTesting_for_Dummies for info.
+To host the web services, I used Eclipse + Apache Tomcat v6.
+
+Erlang dependencies: erlsom, yaws.
+
+Converter.java <- converter_prop.erl
+Contains.java <- contains_prop.erl
+
+View Erlang_WebTesting_for_Dummies for more info.
+
+
