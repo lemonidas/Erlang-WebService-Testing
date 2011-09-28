@@ -26,5 +26,5 @@ make_call(Op_name, Data)->
   Float.
 
 prop_convert_cel_to_far () ->
-  ?FORALL({Celsius}, {integer()}, 
+  ?FORALL(Celsius, integer(), 
     convert(celsius, Celsius) =:= Celsius * 1.8 + 32).
